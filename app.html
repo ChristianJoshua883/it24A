@@ -14,7 +14,7 @@
     <style>
 
       body {
-          background-color: deepskyblue;
+          background-color: rgb(147, 124, 156);
 
       }
 
@@ -22,6 +22,7 @@
 
 
 </head>
+
 
 <body>
 
@@ -44,15 +45,83 @@
   </nav>
 
 
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand">Navbar</a>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+  <style>
+    .custom-margin {
+      
+      margin-top: 1rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+      width: 90%;
+      
+      display: flex;
+
+    }
+  </style>
+
+
+
+  <div class="input-group custom-margin">
+    <span class="input-group-text" id="inputGroup-sizing-default">
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+      </svg>
+    </span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+    <button class="btn btn-primary" type="button" id="inputGroup-sizing-default">Search</button>
+
+  </span>
   </div>
-</nav>
+
+
+  
+    
+
+
+
+  
+  <div>
+    <style>
+      .flex-container {
+        
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(13, 57, 160);
+        margin-top: 1rem;
+      }
+
+      .flex-container>div {
+        
+        background-color: #c4c4c4;
+        margin: 10px;
+        padding: 25px;
+        font-size: 30px;
+        width: calc(33.33% - 20px);
+        text-align: center;
+      }
+  </style>
+  
+  
+  
+  <div class="flex-container">
+    <div>Cap 1</div> 
+    <div>Cap 2</div>
+    <div>Cap 3</div>
+    <div>Cap 4</div>
+    <div>Cap 5</div>
+    <div>Cap 6</div>
+    <div>Cap 7</div>
+    <div>Cap 8</div>
+    <div>Cap 9</div>
+    
+  </div>
+  
+  
+  
+
+
+
+
+
     
 </body>
 </html>
